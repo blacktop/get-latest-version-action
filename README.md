@@ -19,5 +19,5 @@ steps:
     id: latest
     uses: blacktop/get-latest-version-action@v1
 - name: Echo version
-    run: echo 'Latest version is ${{ steps.latest.outputs.latest }}.'
+    run: echo 'Latest version is ${{ steps.latest.outputs.version }}.'
 ```
