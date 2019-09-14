@@ -8,4 +8,4 @@ elif test -f VERSION; then
     latest=$(cat ./LATEST)
 fi
 
-echo ::set-output name=latest::$latest
+echo ::set-output name=version::$latest

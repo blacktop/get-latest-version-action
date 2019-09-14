@@ -1,9 +1,9 @@
 # action.yml
 name: 'Get LATEST'
 author: blacktop
-description: 'Get the contents of the LATEST file in the project root'
+description: 'Get the contents of the LATEST|VERSION file in the project root'
 outputs:
-  latest: # id of output
+  version: # id of output
     description: 'The LATEST version'
 runs:
   using: 'docker'
