@@ -1,0 +1,13 @@
+# action.yml
+name: 'Get LATEST'
+author: blacktop
+description: 'Get the contents of the LATEST file in the project root'
+outputs:
+  latest: # id of output
+    description: 'The LATEST version'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'award'
+  color: 'green'
